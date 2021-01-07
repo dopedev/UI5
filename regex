@@ -28,6 +28,9 @@ allows words of between 5 and 10 characters.
 allows digits of 5 length
 ^\d{5}$
 
+float with 3 Integer and 2 fractions e.g 789.54
+^\-?\d{3}\.\d{2}$
+
 Checks for one or more spaces “ ”, “   ”
 \s
 
