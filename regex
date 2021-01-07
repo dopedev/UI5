@@ -1,0 +1,8 @@
+Checks for at least one alphanumeric characters 
+/^[a-zA-Z0-9]+$/
+
+Checks for one or more spaces “ ”, “   ”
+\s
+
+Allows only single space
+\\s
