@@ -1,5 +1,17 @@
+cheatsheet 
+https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285
+
+regex tester
+https://regex101.com/
+
 Checks for at least one alphanumeric characters 
 /^[a-zA-Z0-9]+$/
+
+string with at least one char
+^[a-zA-Z]+$
+
+string with zero or more
+^[a-zA-Z]*$
 
 Email
 ^([a-zA-Z0-9_\\.\\-])+\\@(([a-zA-Z0-9\\-])+\\.)+([a-zA-Z0-9]{2,4})+$
