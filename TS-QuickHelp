@@ -1,0 +1,91 @@
+arrow functions capture the this value of the nearest enclosing context.
+
+JS datatypes:
+premitive:
+number, string, boolean, undefined
+complex: 
+object, function
+
+TS datatypes: 
+number, string, boolean, object, Array, Tuple, Enum
+
+union types, literal types, type-aliases, function types, unknown, never, void
+
+
+var has global and function sshas block scope
+
+let, const has block scope
+
+spread operator 
+a = [1,2,3]
+b = [...a, 4, 5]
+
+Rest parameters 
+add(...b: number[]) = > {
+ 
+}
+
+array destructuring
+const hobbies = ["sports", "reading"]
+const [hobby1, hobby2, remainingHobbies] = hobbies
+
+const person = {name: "Max", age: 30}
+
+const {name: userName, age} = person
+
+
+private - within class
+
+public - within class, by instance of class, by inherited class
+
+protected - within class, by inherited class
+
+
+abstract method:
+
+provide signature of method in base class and add abstact keyoword in class definition
+
+class which extends this abstract class will provide implmentation for abstract method
+
+static properties and methods:
+
+can accessed without instantiating the class by class name
+Person.getInfo()
+
+Static properties can only be accessed inside static methods.
+
+
+singletons:
+
+A singleton class is configured such that you don't create it with "new"
+but by calling a method which then ensures that only one instance of the class exists at any given time.
+declare constructor as private so that it can not invoked to create an isntance.
+
+to get the single created instance use static method of that class
+
+Person.getInstance 
+
+private static instance;
+static getInstance(){
+if (Person.instance){
+return Person.instance;
+}
+Person.instance = new Person()
+return Person.instance;
+
+}
+
+Interface has declarations only
+Interface can extend one or more interface.
+class has to provide implementaion of methods in interface if it is implementing that interface.
+
+
+
+Advanced Types:
+
+Intersection Types
+
+type t1 = {a: string;}
+type t2 = {b: number;}
+
+type t3 = t1 & t2;
