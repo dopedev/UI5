@@ -1,0 +1,24 @@
+installation:
+Back-End Software Components
+Front-End Software Components
+SPAM > package level 
+
+
+SAP NOTES:
+SNOTE > enter note number
+
+activate ICF:
+SICF 
+
+PFCG role to give access to Fiori launchpad and individual apps- 
+Technical info
+
+PFCG > create or select the role name > click on change icon > User tab > add user > user comparsion > complete comparison
+
+Regenerate role via authorization
+Authorization > change > generate 
+
+Activate odata service 
+/n/iwnfnd/maint_service > add service > package assignment
+
+add role for odata service
