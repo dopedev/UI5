@@ -1,0 +1,29 @@
+parameters: {
+    $count: true,
+    $$updateGroupId: 'peopleGroup'
+}
+
+v4 create 
+
+create entry with binding
+oBinding.create()
+oModel.submitBatch("batchName").then(fnSuc, fnEr)
+
+
+delete
+
+oSelected.getBindingContext().delete("$auto")
+
+
+reset
+this.byId("peopleList").getBinding("items").resetChanges();
+
+features of v4:
+no crud methods
+crud is available implicilty via bindings
+
+specific request can be sent with context api
+
+change in prameters names
+expand => $expand
+
